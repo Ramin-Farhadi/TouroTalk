@@ -1,0 +1,127 @@
+.videoSec {
+  margin-left: auto;
+  margin-right: auto;
+  width: 990px;
+}
+.videoBar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 12px 10px;
+  margin-bottom: 6px;
+  gap: 15px;
+  cursor: pointer;
+
+  width: 990px;
+
+  /* Secondary color/light grey bg */
+
+  background: #f2f2f2;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  transition: 0.3s;
+}
+.videoBar:hover {
+  background-color: #e2e2e2;
+}
+.video-dateBox {
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+
+  width: 80px;
+
+  /* Primary color/Touro primary color */
+
+  background: #203d7c;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+}
+.dateBox-day {
+  display: block;
+}
+.dateBox-monthyear {
+  display: block;
+}
+.bar-description {
+  color: #203d7c;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 8px;
+  width: 875px;
+  flex: none;
+  order: 1;
+  align-self: stretch;
+  flex-grow: 1;
+}
+
+.bar-des-title {
+  width: 875px;
+  height: 23px;
+
+  /* Desktop/Button text bold */
+
+  font-family: 'Brandon Grotesque';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 23px;
+  /* identical to box height */
+
+  text-transform: uppercase;
+
+  /* Primary color/Touro primary color */
+
+  color: #203d7c;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+}
+
+.bar-des-moderate {
+  font-family: 'Brandon Grotesque';
+  font-style: normal;
+  font-weight: 390;
+  font-size: 16px;
+  line-height: 23px;
+  color: #203d7c;
+  flex: none;
+  order: 1;
+  align-self: stretch;
+}
+.bar-des-gust {
+  font-family: 'Brandon Grotesque';
+  font-style: normal;
+  font-weight: 420;
+  font-size: 16px;
+  line-height: 23px;
+  display: flex;
+  align-items: center;
+  color: #203d7c;
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+}
+.vidBanner {
+  display: none;
+  text-align: center;
+}

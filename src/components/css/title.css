@@ -1,0 +1,20 @@
+/* NEWS & EVENTS */
+.title {
+  width: 350px;
+  height: 66px;
+  margin-left: auto;
+  margin-right: auto;
+  /* Desktop/Title */
+
+  font-family: 'Brandon Grotesque';
+  font-style: normal;
+  font-weight: 450;
+  font-size: 46px;
+  line-height: 66px;
+  /* identical to box height */
+
+  text-align: center;
+  text-transform: uppercase;
+
+  color: #2d4fc0;
+}
