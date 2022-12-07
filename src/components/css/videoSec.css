@@ -3,6 +3,10 @@
   margin-right: auto;
   width: 990px;
 }
+.vidFrame {
+  margin-left: auto;
+  margin-right: auto;
+}
 .videoBar {
   display: flex;
   flex-direction: row;

@@ -1,4 +1,5 @@
-import { useState } from 'react';
+import React, { useState } from 'react';
+import Iframe from 'react-iframe'
 
 import './css/videoSec.css';
 const VideoSec = ({ data }) => {
@@ -32,9 +33,14 @@ const VideoSec = ({ data }) => {
               </div>
             </div>
             <div className="vidBanner">
-              <video controls width="70%">
-                <source src={vid.vidURL} type="video/mp4" />
-              </video>
+              <Iframe url={vid.vidUrl}
+        width="640px"
+        height="320px"
+        id=""
+        className="vidFrame"
+        display="block"
+      />
+            
             </div>
           </div>
         );
