@@ -39,7 +39,7 @@ const VideoSec = ({ data }) => {
                 <div className="vidBanner">
                   <Iframe
                     url={vid.vidUrl}
-                    width="640px"
+                    width="100%"
                     height="320px"
                     id=""
                     className="vidFrame"
