@@ -1,7 +1,7 @@
 .videoSec {
   margin-left: auto;
   margin-right: auto;
-  width: 990px;
+  /* width: 990px; */
 }
 .vidFrame {
   margin-left: auto;
@@ -16,7 +16,7 @@
   gap: 15px;
   cursor: pointer;
 
-  width: 990px;
+  /* width: 990px; */
 
   /* Secondary color/light grey bg */
 
@@ -67,16 +67,16 @@
   align-items: flex-start;
   padding: 0px;
   gap: 8px;
-  width: 875px;
-  flex: none;
+  width: auto;
+  /* flex: none; */
   order: 1;
   align-self: stretch;
   flex-grow: 1;
 }
 
 .bar-des-title {
-  width: 875px;
-  height: 23px;
+  /* width: 875px; */
+  /* height: 23px; */
 
   /* Desktop/Button text bold */
 
@@ -128,4 +128,19 @@
 .vidBanner {
   display: none;
   text-align: center;
+}
+@media only screen and (max-width: 426px) {
+  .hero-title {
+    font-size: 20px;
+    line-height: 20px;
+    padding-top: 20px;
+  }
+  .hero-texts {
+    font-size: 18px;
+    line-height: 20px;
+  }
+  .hero-footer {
+    font-size: 18px;
+    line-height: 20px;
+  }
 }

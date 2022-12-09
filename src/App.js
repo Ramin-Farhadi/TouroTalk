@@ -6,13 +6,14 @@ import './components/css/general.css';
 
 function App() {
   return (
-    <div>
+    <>
       {/* Navigation must be added here */}
       <Title />
       {/* Navigation must be added here */}
+
       <HeroSec />
       <VideoSec data={videoData} />
-    </div>
+    </>
   );
 }
 
