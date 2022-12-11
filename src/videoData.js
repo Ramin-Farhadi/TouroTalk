@@ -7,7 +7,9 @@ const videoData = [
     day: '22nd',
     month: 'Jun',
     year: '20',
-    vidUrl: 'https://touro.yuja.com/V/Video?v=6399096&node=28399060&a=1072314658&autoplay=1',
+    vidUrl:
+      'https://touro.yuja.com/V/Video?v=6399096&node=28399060&a=1072314658&autoplay=1',
+    bool: false,
   },
   {
     id: '02',
@@ -19,7 +21,9 @@ const videoData = [
     day: '14th',
     month: 'Sep',
     year: '20',
-    vidUrl: 'https://touro.yuja.com/V/Video?v=6399252&node=28399415&a=160382243&autoplay=1',
+    vidUrl:
+      'https://touro.yuja.com/V/Video?v=6399252&node=28399415&a=160382243&autoplay=1',
+    bool: false,
   },
   {
     id: '03',
@@ -29,7 +33,9 @@ const videoData = [
     day: '14th',
     month: 'OCT',
     year: '20',
-    vidUrl: 'https://touro.yuja.com/V/Video?v=6399345&node=28399693&a=187127765&autoplay=1',
+    vidUrl:
+      'https://touro.yuja.com/V/Video?v=6399345&node=28399693&a=187127765&autoplay=1',
+    bool: false,
   },
   {
     id: '04',
@@ -39,7 +45,9 @@ const videoData = [
     day: '18th',
     month: 'Nov',
     year: '20',
-    vidUrl: 'https://touro.yuja.com/V/Video?v=6399353&node=28399725&a=1693733476&autoplay=1',
+    vidUrl:
+      'https://touro.yuja.com/V/Video?v=6399353&node=28399725&a=1693733476&autoplay=1',
+    bool: false,
   },
   {
     id: '05',
@@ -49,7 +57,9 @@ const videoData = [
     day: '7th',
     month: 'MAR',
     year: '21',
-    vidUrl: 'https://touro.yuja.com/V/Video?v=6399375&node=28399787&a=343940568&autoplay=1',
+    vidUrl:
+      'https://touro.yuja.com/V/Video?v=6399375&node=28399787&a=343940568&autoplay=1',
+    bool: false,
   },
   {
     id: '06',
@@ -59,7 +69,9 @@ const videoData = [
     day: '20th',
     month: 'JUN',
     year: '21',
-    vidUrl: 'https://touro.yuja.com/V/Video?v=6399362&node=28399744&a=1286222032&autoplay=1',
+    vidUrl:
+      'https://touro.yuja.com/V/Video?v=6399362&node=28399744&a=1286222032&autoplay=1',
+    bool: false,
   },
   {
     id: '07',
@@ -69,7 +81,9 @@ const videoData = [
     day: '13th',
     month: 'SEP',
     year: '21',
-    vidUrl: 'https://touro.yuja.com/V/Video?v=6399411&node=28399878&a=705913616&autoplay=1',
+    vidUrl:
+      'https://touro.yuja.com/V/Video?v=6399411&node=28399878&a=705913616&autoplay=1',
+    bool: false,
   },
   {
     id: '08',
@@ -79,7 +93,9 @@ const videoData = [
     day: '5th',
     month: 'OCT',
     year: '21',
-    vidUrl: 'https://touro.yuja.com/V/Video?v=6399395&node=28399844&a=1575643050&autoplay=1',
+    vidUrl:
+      'https://touro.yuja.com/V/Video?v=6399395&node=28399844&a=1575643050&autoplay=1',
+    bool: false,
   },
   {
     id: '09',
@@ -89,7 +105,9 @@ const videoData = [
     day: '18th',
     month: 'OCT',
     year: '21',
-    vidUrl: 'https://touro.yuja.com/V/Video?v=6399507&node=28400105&a=649454741&autoplay=1',
+    vidUrl:
+      'https://touro.yuja.com/V/Video?v=6399507&node=28400105&a=649454741&autoplay=1',
+    bool: false,
   },
   {
     id: '10',
@@ -99,7 +117,9 @@ const videoData = [
     day: '14th',
     month: 'DEC',
     year: '21',
-    vidUrl: 'https://touro.yuja.com/V/Video?v=6399537&node=28400204&a=1439882782&autoplay=1',
+    vidUrl:
+      'https://touro.yuja.com/V/Video?v=6399537&node=28400204&a=1439882782&autoplay=1',
+    bool: false,
   },
   {
     id: '11',
@@ -109,7 +129,9 @@ const videoData = [
     day: '12th',
     month: 'JAN',
     year: '22',
-    vidUrl: 'https://touro.yuja.com/V/Video?v=6399669&node=28400535&a=1887217973&autoplay=1',
+    vidUrl:
+      'https://touro.yuja.com/V/Video?v=6399669&node=28400535&a=1887217973&autoplay=1',
+    bool: false,
   },
   {
     id: '12',
@@ -119,7 +141,9 @@ const videoData = [
     day: '23rd',
     month: 'FEB',
     year: '22',
-    vidUrl: 'https://touro.yuja.com/V/Video?v=6399845&node=28401006&a=585165403&autoplay=1',
+    vidUrl:
+      'https://touro.yuja.com/V/Video?v=6399845&node=28401006&a=585165403&autoplay=1',
+    bool: false,
   },
   {
     id: '13',
@@ -130,7 +154,9 @@ const videoData = [
     day: '9th',
     month: 'MAR',
     year: '22',
-    vidUrl: 'https://touro.yuja.com/V/Video?v=6400357&node=28403178&a=1889698351&autoplay=1',
+    vidUrl:
+      'https://touro.yuja.com/V/Video?v=6400357&node=28403178&a=1889698351&autoplay=1',
+    bool: false,
   },
   {
     id: '14',
@@ -140,7 +166,9 @@ const videoData = [
     day: '6th',
     month: 'APR',
     year: '22',
-    vidUrl: 'https://touro.yuja.com/V/Video?v=6521472&node=28632155&a=1970832447&autoplay=1',
+    vidUrl:
+      'https://touro.yuja.com/V/Video?v=6521472&node=28632155&a=1970832447&autoplay=1',
+    bool: false,
   },
   {
     id: '15',
@@ -152,7 +180,9 @@ const videoData = [
     day: '18th',
     month: 'MAY',
     year: '22',
-    vidUrl: 'https://touro.yuja.com/V/Video?v=6399845&node=28401006&a=585165403&autoplay=1',
+    vidUrl:
+      'https://touro.yuja.com/V/Video?v=6399845&node=28401006&a=585165403&autoplay=1',
+    bool: false,
   },
 ];
 

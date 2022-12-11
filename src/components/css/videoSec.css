@@ -125,8 +125,11 @@
   order: 2;
   flex-grow: 0;
 }
-.vidBanner {
+.hide {
   display: none;
+}
+.show {
+  display: block;
   text-align: center;
 }
 @media only screen and (max-width: 426px) {
