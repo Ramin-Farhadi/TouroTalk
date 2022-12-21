@@ -30,7 +30,7 @@ const videoData = [
     guest:
       'Dr. Alan Kadish, President, Touro University; Lihi Lapid, President of SHEKEL - Inclusion for People with Disabilities; Mobileye employees, Mollie Goldstein, Eli Schreiber, and Roni Vistuch; and Professor Levine.',
     day: '23rd',
-    month: 'Oct',
+    month: 'OCT',
     year: '22',
     vidUrl:
       'https://tourolaw.yuja.com/V/Video?v=6212996&node=27676647&a=1953839402&preload=false',
@@ -147,18 +147,6 @@ const videoData = [
     bool: false,
   },
   {
-    id: '05',
-    title: 'The Virus in the Age of Madness',
-    moderate: 'Moderated by Dr. Alan Kadish',
-    guest: 'Bernard-Henri Lévy',
-    day: '7th',
-    month: 'MAR',
-    year: '21',
-    vidUrl:
-      'https://touro.yuja.com/V/Video?v=6399375&node=28399787&a=343940568&autoplay=1',
-    bool: false,
-  },
-  {
     id: '06',
     title: 'A conversation on the new Middle East with Ambassador Houda Nonoo',
     moderate: 'Moderated by Dr. Alan Kadish',
@@ -171,12 +159,24 @@ const videoData = [
     bool: false,
   },
   {
+    id: '05',
+    title: 'The Virus in the Age of Madness',
+    moderate: 'Moderated by Dr. Alan Kadish',
+    guest: 'Bernard-Henri Lévy',
+    day: '7th',
+    month: 'MAR',
+    year: '21',
+    vidUrl:
+      'https://touro.yuja.com/V/Video?v=6399375&node=28399787&a=343940568&autoplay=1',
+    bool: false,
+  },
+  {
     id: '04',
     title: 'Free Speech from Itself Book Talk - Part 1',
     moderate: 'Moderated by Dr. Alan Kadish',
     guest: 'Thane Rosenbaum',
     day: '18th',
-    month: 'Nov',
+    month: 'NOV',
     year: '20',
     vidUrl:
       'https://touro.yuja.com/V/Video?v=6399353&node=28399725&a=1693733476&autoplay=1',
@@ -202,7 +202,7 @@ const videoData = [
     guest:
       'Honorable Elyakim Rubinstein, Deputy President (Ret.), Supreme Court of Israel',
     day: '14th',
-    month: 'Sep',
+    month: 'SEP',
     year: '20',
     vidUrl:
       'https://touro.yuja.com/V/Video?v=6399252&node=28399415&a=160382243&autoplay=1',
@@ -214,7 +214,7 @@ const videoData = [
     moderate: 'Moderated by Dr. Alan Kadish',
     guest: 'Dr. Henry Abrahamson',
     day: '22nd',
-    month: 'Jun',
+    month: 'JUN',
     year: '20',
     vidUrl:
       'https://touro.yuja.com/V/Video?v=6399096&node=28399060&a=1072314658&autoplay=1',
