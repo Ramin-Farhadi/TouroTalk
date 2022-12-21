@@ -1,12 +1,39 @@
 import React from 'react';
 import './css/heroSec.css';
-import { Grid } from '@mui/material';
+import { Grid, createTheme } from '@mui/material';
 import { Box } from '@mui/system';
+
 const HeroSec = () => {
+  const theme = createTheme({
+    breakpoints: {
+      values: {
+        xs: 0,
+        sm: 600,
+        md: 900,
+        lg: 1200,
+        xl: 1440,
+        xxl: 1536,
+        xxxl: 1800,
+      },
+    },
+  });
   return (
     <Grid container>
       <Grid item xs={12}>
-        <Box className="heroSec" sx={{ px: { xs: '30px', md: '200px' } }}>
+        <Box
+          className="heroSec"
+          theme={theme}
+          sx={{
+            px: {
+              xs: '30px',
+              md: '180px',
+              lg: '230px',
+              xl: '250px',
+              xxl: '300px',
+              xxxl: '450px',
+            },
+          }}
+        >
           <div className="hero-texts">
             <p className="hero-title">TOURO TALKS</p>
             <p>
