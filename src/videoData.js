@@ -1,9 +1,45 @@
 const videoData = [
   {
+    id: '18',
+    title: 'Autism and Religion: An International Conversation.',
+    moderate: 'Moderated by Dr. Alan Kadish',
+    guest:
+      "Gabrielle Kaplan-Mayer, Chief Program Officer & Director, Whole Community Inclusion, Jewish Learning Venture; John Elder Robison, Neurodiversity Scholar, College of William & Mary and New York Times Best-Selling Author of Look Me in the Eye: My Life with Asperger's; Rabbi Dr. Rafi Feuerstein, President of the Feuerstein Institute; and Professor Levine.",
+    day: '15th',
+    month: 'DEC',
+    year: '22',
+    vidUrl:
+      'https://tourolaw.yuja.com/V/Video?v=7001123&node=29349798&a=433325054&preload=false',
+  },
+  {
+    id: '17',
+    title: 'Autism and Employment: Lessons From the Winters Center for Autism.',
+    moderate: 'Moderated by Dr. Alan Kadish',
+    guest:
+      'Winters Center employees, Christine Ponzio and Chris Cortale; John Kelly, Founding President, Disabled and Allied Law Students Association at Touro Law; and Professor Levine.',
+    day: '15th',
+    month: 'NOV',
+    year: '22',
+    vidUrl:
+      'https://tourolaw.yuja.com/V/Video?v=6342953&node=28190466&a=333813648&preload=false',
+  },
+  {
+    id: '16',
+    title: 'Autism and Employment: Lessons From the Corporate World.',
+    moderate: 'Moderated by Dr. Alan Kadish',
+    guest:
+      'Dr. Alan Kadish, President, Touro University; Lihi Lapid, President of SHEKEL - Inclusion for People with Disabilities; Mobileye employees, Mollie Goldstein, Eli Schreiber, and Roni Vistuch; and Professor Levine.',
+    day: '23rd',
+    month: 'Oct',
+    year: '22',
+    vidUrl:
+      'https://tourolaw.yuja.com/V/Video?v=6212996&node=27676647&a=1953839402&preload=false',
+  },
+  {
     id: '01',
     title: 'PLAGUE AND PANDEMIC IN JEWISH HISTORY',
     moderate: 'Moderated by Dr. Alan Kadish',
-    guest: '',
+    guest: 'Dr. Henry Abrahamson',
     day: '22nd',
     month: 'Jun',
     year: '20',
@@ -162,7 +198,7 @@ const videoData = [
     id: '14',
     title: 'Passover History',
     moderate: 'Moderated by Dr. Alan Kadish',
-    guest: '',
+    guest: 'Dr. Henry Abrahamson',
     day: '6th',
     month: 'APR',
     year: '22',

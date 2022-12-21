@@ -31,9 +31,9 @@ const Videos = ({ rawData }) => {
               </div>
               <div className="bar-description">
                 <span className="bar-des-title">{vid.title}</span>
-                <span className="bar-des-moderate">{vid.moderate}</span>
+                {/* <span className="bar-des-moderate">{vid.moderate}</span> */}
                 <span className="bar-des-gust">
-                  {vid.guest && 'Guests : ' + vid.guest}
+                  {vid.guest && 'Presenters : ' + vid.guest}
                 </span>
               </div>
             </div>
