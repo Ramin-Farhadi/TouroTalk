@@ -1,22 +1,10 @@
 import React from 'react';
 import './css/heroSec.css';
-import { Grid, createTheme } from '@mui/material';
+import { Grid } from '@mui/material';
 import { Box } from '@mui/system';
+import theme from './css/breakPoints';
 
 const HeroSec = () => {
-  const theme = createTheme({
-    breakpoints: {
-      values: {
-        xs: 0,
-        sm: 600,
-        md: 900,
-        lg: 1200,
-        xl: 1440,
-        xxl: 1536,
-        xxxl: 1800,
-      },
-    },
-  });
   return (
     <Grid container>
       <Grid item xs={12}>
