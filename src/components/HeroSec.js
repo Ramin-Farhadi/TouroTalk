@@ -31,7 +31,7 @@ const HeroSec = () => {
               social justice leaders, and much more.
             </p>
             <p className="hero-footer">
-              | Directed and curated by Nahum Twersky
+              | Sponsored by Robert and Arlene Rosenberg, Directed and curated by Nahum Twersky
             </p>
           </div>
         </Box>
